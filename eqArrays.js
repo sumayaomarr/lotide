@@ -12,6 +12,7 @@ const eqArrays =(arr1,arr2)=> {
 return arr1.length === arr2.length && arr1.every((v,i)=> v === arr2[i])
 }
 
+
 // TEST CODE
 assertEqual(eqArrays([1, 2, 3], [3, 2, 1]),true);
 
