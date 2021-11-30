@@ -48,3 +48,11 @@ middle([3, 5, 6, 3, 6, 2, 6, 2, 6])
 var result = middle(['HI' , 'BYE' , 'HELLO', 'HEY'])
 
 assertArrayEqual(result,['BYE' , 'HELLO'])
+
+
+module.exports = middle
+
+
+
+assertArrayEqual
+eqArrays
