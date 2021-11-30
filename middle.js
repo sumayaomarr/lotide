@@ -50,9 +50,5 @@ var result = middle(['HI' , 'BYE' , 'HELLO', 'HEY'])
 assertArrayEqual(result,['BYE' , 'HELLO'])
 
 
-module.exports = middle
+module.exports = middle;
 
-
-
-assertArrayEqual
-eqArrays

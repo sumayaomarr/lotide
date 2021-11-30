@@ -38,3 +38,6 @@ const assertObjectsEqual = function(inputObject, expectedObject) {
     console.log(`🔴 Assertation Failed: ${inspect(inputObject)} !== ${inspect(expectedObject)}`);
   }
 };
+
+
+module.exports = assertObjectsEqual;

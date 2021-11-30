@@ -14,3 +14,5 @@ const findKey = function(object, callback) {
     if (callback(object[key])) return key;
   }
 };
+
+module.exports = findKey;

@@ -19,3 +19,5 @@ const countLetters =  word => {
 };
 
 console.log(countLetters("This is my third day at Lighthouse Labs") );
+
+module.exports = countLetters;
